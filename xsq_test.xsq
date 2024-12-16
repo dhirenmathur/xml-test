@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testData>
+    <!-- Simple elements -->
+    <basicInfo>
+        <name>Test Project</name>
+        <date>2024-12-16</date>
+        <version>1.0</version>
+    </basicInfo>
+
+    <!-- Elements with attributes -->
+    <users>
+        <user id="1" status="active">
+            <firstName>John</firstName>
+            <lastName>Doe</lastName>
+            <email>john@example.com</email>
+        </user>
+        <user id="2" status="inactive">
+            <firstName>Jane</firstName>
+            <lastName>Smith</lastName>
+            <email>jane@example.com</email>
+        </user>
+    </users>
+
+    <!-- Nested elements with mixed content -->
+    <messages>
+        <message priority="high">
+            <title>Welcome Message</title>
+            <content>Hello, this is a <bold>test</bold> message with some <italic>formatted</italic> text.</content>
+            <timestamp>2024-12-16T10:30:00</timestamp>
+        </message>
+    </messages>
+
+    <!-- Empty elements -->
+    <settings>
+        <debugMode enabled="true"/>
+        <cache maxSize="1024" enabled="false"/>
+    </settings>
+
+    <!-- Array-like data -->
+    <numbers>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </numbers>
+</testData>
